@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accessories>
+  <accessory>
+    <title>Samsung S9 Soft Touch Case - Black</title>
+    <price>£24.99</price>
+    <description>
+      Your handset's curves already feel great in your hand, and this hard shell
+       back cover with smooth silicone coating amplifies the comfort. The matte
+       finish is silky and soft to the touch but gives you that extra protection you want.
+    </description>
+  </accessory>
+  <accessory>
+    <title>Proporta iPhone XR Phone Case - Black</title>
+    <price>£9.99</price>
+    <description>
+      Constructed in an ultra-tough, precision moulded shell style, this ergonomic
+      iPhone XR case is form-fitting and ultra-portable. A chic, black design with
+      high gloss finish adds simple, stylish protection that allows full, non-obtrusive
+      phone access. Ultra-tough, precision moulded shell style.
+    </description>
+  </accessory>
+  <accessory>
+    <title>Apple Lightning to USB 1 Metre Cable</title>
+    <price>£19.99</price>
+    <description>
+      Use this Apple lightning to USB Cable to charge and sync your iPhone or
+      iPod with lightning connectivity to your Mac or Windows PC.
+    </description>
+  </accessory>
+  <accessory>
+    <title>Juice Immortal USB to Lightning 1m Charging Cable - Grey</title>
+    <price>£29.99</price>
+    <description>
+      The Juice Immortal Lightning cable is one of the toughest cables that you
+      will find. It is fully armoured and also has been tested to bend up to 10,000
+      times without breaking, we believe it is immortal! . This means you can say goodbye
+      to frayed ends thanks to the addition of a super strong armoured coating.
+    </description>
+  </accessory>
+</accessories>

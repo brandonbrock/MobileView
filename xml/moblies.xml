@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<moblies>
+ <moblie>
+    <title>IPhone X</title>
+    <price>£999</price>
+    <description>
+      With Apple iPhone X, the device is the display. An all-new 5.8-inch Super Retina display employs
+      new techniques and technology to precisely follow the curves of the design. The OLED screen delivers
+      accurate, stunning colours, true blacks, high brightness, and a 1,000,000 to 1 contrast ratio.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Huawei P20</title>
+    <image>huaweiP20.png</image>
+    <price>£599</price>
+    <description>
+      Engineered in collaboration with Leica, the dual lens (20MP and 12MP) camera of the Huawei P20 is
+      infused with AI technology to ensure that you capture true-to-life photographs every time. The AI
+      stabilisation feature also enables users to snap blur-free handheld shots in low light and record
+      the details of moving actions.
+    </description>
+ </moblie>
+ <moblie>
+    <title>IPhone 6</title>
+    <image>iphone6.png</image>
+    <price>£199</price>
+    <description>
+      The iPhone 6s has a stunning 4.7″ display with responsive 3D Touch
+      that can sense the pressure you apply to the screen and act accordingly.
+    </description>
+ </moblie>
+ <moblie>
+    <title>IPhone XR</title>
+    <image>iphoneXR.png</image>
+    <price>£749</price>
+    <description>
+      The new Liquid Retina display on iPhone XR is the most advanced LCD ever,
+      backlit so the screen stretches into the corners. So now you can see true-to-life
+      colours from one beautiful edge to the other.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Moto E5</title>
+    <image>motoE5.png</image>
+    <price>£299</price>
+    <description>
+      The E5 Play has a large 5.3″ screen with 18:9 Max Vision display so your photos and videos look fantastic.
+      The E5 Play has an advanced 8MP camera with autofocus that works well even in low light conditions,
+      so you can take great photos whatever time it is.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Samsung S9</title>
+    <image>samsungs9.png</image>
+    <price>£900</price>
+    <description>
+      With a specially-designed dual aperture lens that works like the iris of a human eye,
+      the Samsung Galaxy S9’s camera finds light even in the dark – capturing your photographs
+      in super low or super bright lighting conditions, so you can take photographs at any time of day.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Nokia 5</title>
+    <image>nokia5.png</image>
+    <price>£110</price>
+    <description>
+      With a beautifully designed 5"2 HD display the Nokia 5 comes with a 13MP camera
+      more than capable of taking beautiful snapshots.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Samsung J6</title>
+    <image>samsungj6.png</image>
+    <price>£265</price>
+    <description>
+      Stated saving achieved over the duration of credit agreement; discount applied
+      to monthly payments and will vary dependent on agreement length. While stocks last.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Sony Xperia XA2</title>
+    <image>sonyxperiaxa2.png</image>
+    <price>£305</price>
+    <description>
+      Shoot photos and videos with outstanding colour and clarity using the
+      Xperia XA2’s 23MP camera with Sony’s light sensitive Exmor RSTM  for mobile
+      sensor plus 4K video recording. Or create fun, slow-motion videos in HD.
+    </description>
+ </moblie>
+ <moblie>
+    <title>Alcatel 3V</title>
+    <image>alcatel3v.png</image>
+    <price>£99</price>
+    <description>
+      The 12MP front camera on the Alcatel 3V has a breathtaking depth of field so you can capture
+      all the details, while the 5MP rear camera is perfect for snapping selfies.
+    </description>
+ </moblie>
+</moblies>

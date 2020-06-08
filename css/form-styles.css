@@ -1,0 +1,147 @@
+/****** Main content - moblie phone ******/
+ header {
+     text-align:center;
+}
+ .header {
+     width: 60%;
+     margin: 70px auto 0px;
+     color: white;
+     background: #a68c8b;
+     text-align: center;
+     border: 1px solid #a68c8b;
+     border-bottom: none;
+     border-radius: 10px 10px 0px 0px;
+     padding: 20px;
+     font-family: arial;
+}
+ form {
+     font-family: arial;
+     font-size: 30px;
+     width: 60%;
+     margin: 0px auto;
+     padding: 20px;
+     border: 1px solid #a68c8b;
+     background: white;
+     border-radius: 0px 0px 10px 10px;
+}
+ .input-group {
+     margin: 10px 0px 10px 0px;
+}
+ .input-group label {
+     display: block;
+     text-align: left;
+     margin: 5px;
+}
+ .input-group input {
+     height: 40px;
+     width: 93%;
+     padding: 5px 10px;
+     font-size: 16px;
+     border-radius: 5px;
+     border: 1px solid gray;
+}
+ .input-group button {
+     padding: 10px;
+     font-size: 35px;
+     color: white;
+     background: #a68c8b;
+     border: none;
+     border-radius: 5px;
+}
+ @media only screen and (min-width: 768px) {
+     .header {
+         width: 60%;
+         margin: 70px auto 0px;
+         color: white;
+         background: #a68c8b;
+         text-align: center;
+         border: 1px solid #a68c8b;
+         border-bottom: none;
+         border-radius: 10px 10px 0px 0px;
+         padding: 20px;
+         font-family: arial;
+    }
+     form {
+         font-family: arial;
+         font-size: 30px;
+         width: 60%;
+         margin: 0px auto;
+         padding: 20px;
+         border: 1px solid #a68c8b;
+         background: white;
+         border-radius: 0px 0px 10px 10px;
+    }
+     .input-group {
+         margin: 10px 0px 10px 0px;
+    }
+     .input-group label {
+         display: block;
+         text-align: left;
+         margin: 5px;
+    }
+     .input-group input {
+         height: 50px;
+         width: 93%;
+         padding: 5px 10px;
+         font-size: 16px;
+         border-radius: 5px;
+         border: 1px solid gray;
+    }
+     .input-group button {
+         padding: 10px;
+         font-size: 35px;
+         color: white;
+         background: #a68c8b;
+         border: none;
+         border-radius: 5px;
+    }
+}
+ @media only screen and (min-width: 1000px) {
+     .header {
+         width: 30%;
+         margin: 50px auto 0px;
+         color: white;
+         background: #a68c8b;
+         text-align: center;
+         border: 1px solid #a68c8b;
+         border-bottom: none;
+         border-radius: 10px 10px 0px 0px;
+         padding: 20px;
+         font-family: arial;
+    }
+     form {
+         font-family: arial;
+         font-size: 16px;
+         width: 30%;
+         margin: 0px auto;
+         padding: 20px;
+         border: 1px solid #a68c8b;
+         background: white;
+         border-radius: 0px 0px 10px 10px;
+    }
+     .input-group {
+         margin: 10px 0px 10px 0px;
+    }
+     .input-group label {
+         display: block;
+         text-align: left;
+         margin: 3px;
+    }
+     .input-group input {
+         height: 30px;
+         width: 93%;
+         padding: 5px 10px;
+         font-size: 16px;
+         border-radius: 5px;
+         border: 1px solid gray;
+    }
+     .input-group button {
+         padding: 10px;
+         font-size: 15px;
+         color: white;
+         background: #a68c8b;
+         border: none;
+         border-radius: 5px;
+    }
+}
+ 

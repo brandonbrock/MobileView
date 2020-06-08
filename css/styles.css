@@ -1,0 +1,378 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     img {
+        vertical-align: middle;
+    }
+     {
+        box-sizing: border-box;
+    }
+}
+/****** Main content - moblie phone ******/
+
+ .phone-index {
+     margin: auto;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     max-width: 300px;
+     text-align: center;
+     font-family: arial;
+}
+ .phone-index button {
+     border: none;
+     outline: 0;
+     padding: 12px;
+     color: white;
+     background-color: #a68c8b;
+     text-align: center;
+     cursor: pointer;
+     width: 100%;
+     font-size: 18px;
+}
+ .phone-index button:hover {
+     opacity: 0.7;
+}
+ .mySlides {
+     display: none;
+}
+ .prev, .next {
+     display: none;
+}
+ .wrapper {
+     width: 100%;
+}
+ .img-logo {
+     text-align:center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ .content {
+     width: 100%;
+}
+.container {
+	float: left;
+	position: relative;
+	min-height:1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.container img {
+     width: 150px;
+     height: 250px;
+}
+
+.table-responsive {
+	width: 100%;
+	margin-bottom: 15px;
+	overflow-y: hidden;
+	border: 1px solid #ddd;
+}
+}
+ .nav {
+     text-align: center;
+}
+ .nav a {
+     font-size: 25px;
+}
+ .content h1 {
+     padding: 30px 30px 20px;
+     font-family: arial;
+     font-size: 30px;
+     color: black;
+}
+ .content h2 {
+     padding-top: 30px;
+     font-family: arial;
+     font-size: 20px;
+     color: black;
+}
+ .content p {
+     padding: 30px 30px 20px;
+     font-family: arial;
+     font-size: 14px;
+     color: black;
+}
+ .content ul {
+     font-family: arial;
+     font-size: 14px;
+     color: black;
+     font-family: arial;
+     text-align: left;
+     padding: 30px 30px 20px;
+}
+ .homepage-images {
+     width: 50%;
+     padding-top: 2%;
+     padding-left: 1%;
+     padding-right: 1%;
+     padding-bottom: 2%;
+}
+/****** Footer ******/
+ #footer {
+     background:white;
+     text-align:center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     font-family: arial;
+}
+ #footer a {
+     color:black;
+     font-family: arial;
+     text-decoration: none;
+}
+/****** Main content - tablet view ******/
+/*This tells the css file only to run code in curly brackets if true*/
+ @media only screen and (min-width: 768px) {
+     .report {
+         width: 80%;
+    }
+    /****** Slideshow ******/
+    /* Slideshow container */
+     .slideshow-container {
+         max-width: 1000px;
+         position: relative;
+         margin: auto;
+         padding-top: 3%;
+    }
+    /* Next & previous buttons */
+     .prev, .next {
+         cursor: pointer;
+         position: absolute;
+         top: 50%;
+         width: auto;
+         padding: 16px;
+         margin-top: -22px;
+         color: white;
+         font-weight: bold;
+         font-size: 18px;
+         transition: 0.6s ease;
+         border-radius: 0 3px 3px 0;
+         user-select: none;
+    }
+    /* Position the "next button" to the right */
+     .next {
+         display: block;
+         right: 0;
+         border-radius: 3px 0 0 3px;
+    }
+    /* Position the "previous button" to the left */
+     .prev {
+         display: block;
+         left: 0;
+         border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+     .prev:hover, .next:hover {
+         background-color: rgba(0,0,0,0.8);
+    }
+     .mySlides:first-child {
+         display: block;
+    }
+     .text, .numbertext, .dot {
+         display: none;
+    }
+    /****** container ******/
+     .wrapper {
+         width: 600px;
+         margin: 0 auto;
+    }
+     .content {
+         width: 100%;
+    }
+     .content h1 {
+         padding: 20px 0px 0px;
+         color: black;
+         font-size: 30px;
+    }
+     .content p {
+         padding: 20px 0px 0px;
+    }
+     .homepage-images {
+         width: 47%;
+    }
+    /****** Navigation bar ******/
+     .nav-container {
+         width: 80%;
+         margin: 0 auto;
+    }
+     header {
+         background: #a68c8b;
+    }
+     header::after {
+         content: '';
+         display: table;
+         clear: both;
+    }
+     .logo {
+         float: left;
+         padding: 15px 0;
+    }
+     .nav {
+         float: right;
+    }
+     .nav ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+    }
+     .nav li {
+         display: inline-block;
+         margin-left: 30px;
+         padding-top: 28px;
+         position: relative;
+    }
+     .nav a {
+         color: white;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 20px;
+         font-family: arial;
+    }
+     .nav a:hover {
+         color: #000;
+    }
+    /****** Footer ******/
+     #footer {
+         font-size: 20px;
+    }
+     #footer a {
+         font-size: 20px;
+    }
+}
+/****** Main content - desktop view ******/
+/*This tells the css file only to run code in curly brackets if true*/
+ @media only screen and (min-width: 1000px) {
+	 table{
+    width: 49%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+
+	 
+	.homepage-images {
+         width: 47%;
+    }
+
+     .report {
+         width: 50%;
+    }
+    /***** Slideshow ****/
+    /* Caption text */
+     .text {
+         color: #f2f2f2;
+         font-size: 15px;
+         padding: 8px 12px;
+         position: absolute;
+         bottom: 8px;
+         width: 100%;
+         text-align: center;
+         font-family: Arial;
+         display: block;
+    }
+    /* Number text (1/3 etc) */
+     .numbertext {
+         color: #f2f2f2;
+         font-size: 12px;
+         padding: 35px 10px;
+         position: absolute;
+         top: 0;
+         font-family: Arial;
+         display: block;
+    }
+    /* The dots/bullets/indicators */
+     .dot {
+         cursor: pointer;
+         height: 15px;
+         width: 15px;
+         margin: 0 2px;
+         background-color: #bbb;
+         border-radius: 50%;
+         display: inline-block;
+         transition: background-color 0.6s ease;
+    }
+     .active, .dot:hover {
+         background-color: #717171;
+    }
+     .wrapper {
+         width: 1000px;
+    }
+     .content {
+         width: 100%;
+    }
+    /****** Navigation bar ******/
+     .nav-container {
+         width: 80%;
+         margin: 0 auto;
+    }
+     header {
+         background: #a68c8b;
+    }
+     header::after {
+         content: '';
+         display: table;
+         clear: both;
+    }
+     .logo {
+         float: left;
+         padding: 15px 0;
+    }
+     .nav {
+         float: right;
+    }
+     .nav ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+    }
+     .nav li {
+         display: inline-block;
+         margin-left: 70px;
+         padding-top: 28px;
+         position: relative;
+    }
+     .nav a {
+         color: white;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 14px;
+         font-family: arial;
+    }
+     .nav a:hover {
+         color: #000;
+    }
+    /****** Footer ******/
+     #footer {
+         font-size: 14px;
+    }
+     #footer a {
+         font-size: 14px;
+    }
+}
+ 

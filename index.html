@@ -1,0 +1,106 @@
+<?php
+session_start();
+include"connection.php";
+?>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>moblieView</title>
+      <meta name="viewport" content="width=device-width, inital-scale=1.0">
+      <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+      <script>
+         var slideIndex = 1; //sets the frist picture
+         showSlides(slideIndex);
+
+         function plusSlides(n) { //subtracts one or adds on to slideIndex
+           showSlides(slideIndex += n);
+         }
+
+         function currentSlide(n) {
+           showSlides(slideIndex = n);
+         }
+
+         function showSlides(n) { //displays first image
+           var i;//Function hides display=none and display=block when element given in slideIndex
+           var slides = document.getElementsByClassName("mySlides");
+           var dots = document.getElementsByClassName("dot");
+           if (n > slides.length) {slideIndex = 1} //If slideIndex is higher than number of elements the slideindex is set to zero
+           if (n < 1) {slideIndex = slides.length} //If slideIndex is less than 1 is is set to the number of elements x.length
+           for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";
+           }
+           for (i = 0; i < dots.length; i++) {
+               dots[i].className = dots[i].className.replace(" active", "");
+           }
+           slides[slideIndex-1].style.display = "block";
+           dots[slideIndex-1].className += " active";
+         }
+      </script>
+   </head>
+   <body>
+      <header>
+         <div class="nav-container">
+            <div class="img-logo">
+               <a href="index.html">
+               <img src="images/logov2.jpg" alt="company logo" class="logo">
+               </a>
+            </div>
+            <div class="nav">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+				  <?php 
+				  if(isset($_SESSION['username'])){?>
+				  <li><a href="php/logout.php">Logout</a></li>
+				  <?php }
+				  else{ ?>
+				  <li><a href="php/loginForm.php">Login</a></li>
+				  <?php }
+				  if($level = "admin") {
+				  ?>
+				  <li><a href="php/admin.php">Admin</a></li>
+				  <?php } ?>	
+               </ul>
+            </div>
+         </div>
+      </header>
+      <div class="wrapper">
+      <div class ="content">
+         <div class="slideshow-container">
+            <div class="mySlides fade">
+               <div class="numbertext">1 / 3</div>
+               <img src="images/img1.png" style="width:100%">
+               <div class="text">£599</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">2 / 3</div>
+               <img src="images/img2.png" style="width:100%">
+               <div class="text">£749</div>
+            </div>
+            <div class="mySlides fade">
+               <div class="numbertext">3 / 3</div>
+               <img src="images/img3.png" style="width:100%">
+               <div class="text">£99</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+         <br>
+         <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+         </div>
+         <a href="php/shopppingcart.php"><img src="images/mobile-phones.png" class="homepage-images"></a>
+         <img src="images/sale.png" class="homepage-images">
+         <a href="php/profile.php"><img src="images/myaccount.png" class="homepage-images"></a>
+         <img src="images/accessories.png" class="homepage-images">
+       </div>
+     </div>
+      <div id="footer">
+      <div class="wrap">
+      <p>Last updated 17/01/19<br>&copy; 2018 - <a href="mailto:n0773065@my.ntu.ac.uk?subject=Your site is amazing">Brandon Brock</a></p>
+      </div>
+      </div>
+   </body>
+</html>

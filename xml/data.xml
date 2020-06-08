@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<moblies>
+ <moblie>
+    <title>IPhone X</title>
+    <image>iphoneX.png</image>
+    <price>999</price>
+ </moblie>
+ <moblie>
+    <title>Huawei P20</title>
+    <image>huaweiP20.png</image>
+    <price>599</price>
+ </moblie>
+ <moblie>
+    <title>IPhone 6</title>
+    <image>iphone6.png</image>
+    <price>199</price>
+ </moblie>
+ <moblie>
+    <title>IPhone XR</title>
+    <image>iphoneXR.png</image>
+    <price>749</price>
+ </moblie>
+ <moblie>
+    <title>Moto E5</title>
+    <image>motoE5.png</image>
+    <price>299</price>
+ </moblie>
+ <moblie>
+    <title>Samsung S9</title>
+    <image>samsungs9.png</image>
+    <price>900</price>
+ </moblie>
+ <moblie>
+    <title>Nokia 5</title>
+    <image>nokia5.png</image>
+    <price>110</price>
+ </moblie>
+ <moblie>
+    <title>Samsung J6</title>
+    <image>samsungj6.png</image>
+    <price>265</price>
+ </moblie>
+ <moblie>
+    <title>Sony Xperia XA2</title>
+    <image>sonyxperiaxa2.png</image>
+    <price>305</price>
+ </moblie>
+ <moblie>
+    <title>Alcatel 3V</title>
+    <image>alcatel3v.png</image>
+    <price>99</price>
+ </moblie>
+</moblies>
